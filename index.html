@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="summarizer.js"></script>
+    <script type="module" src="summary-popup.js"></script>
+    <script src="popup.js"></script>
+    <script src="chatbox.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="chatbox.css" />
+    <title>Extension for Dummies</title>
+  </head>
+
+  <body>
+    <h1>About</h1>
+    <p>
+      This Chrome extension helps you summarize paragraphs on web pages by
+      injecting concise summaries next to the original content. Toggle the
+      feature on or off using the button below.
+    </p>
+
+    <div class="toggle-container">
+      <span>Summarization:</span>
+      <button id="toggleButton" class="toggle-btn">Enable</button>
+    </div>
+
+    <div class="chatbox-container">
+      <div class="chatbox-header">
+        <span>Chat with AI</span>
+        <button class="close-chatbox">×</button>
+      </div>
+      <div id="chatboxMessages" class="chatbox-messages"></div>
+      <div class="chatbox-input">
+        <input type="text" id="chatInput" placeholder="Type your message..." />
+        <button id="sendChatMessage">Send</button>
+      </div>
+    </div>
+  </body>
+</html>
