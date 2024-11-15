@@ -24,17 +24,9 @@ To run this project, you’ll need the following:
 
 1. Clone this repository to your local machine:
 
-    ```bash
-    git clone https://github.com/yourusername/accessibility-app.git
-    ```
-
 2. Install dependencies:
 
     - If you're using a Node.js environment, install any necessary dependencies (like `axios` if you use it for making requests) by running:
-
-    ```bash
-    npm install
-    ```
 
 3. Add your OpenAI API key:
     - Open the `background.js` file.
